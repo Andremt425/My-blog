@@ -2,14 +2,18 @@
 
 ## Setup
 
-### Create enviroment
+### Create environment
 
 python -m venv .venv
 
-### Activate enviroment
+### Activate environment
 
 .\.venv\Scripts\activate
 
 ### Install fastapi
 
 pip install "fastapi[standard]"
+
+### Run
+
+uvicorn main:app --reload
