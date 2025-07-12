@@ -13,3 +13,7 @@ python -m venv .venv
 ### Install fastapi
 
 pip install "fastapi[standard]"
+
+### Run
+
+uvicorn main:app --reload
