@@ -2,11 +2,11 @@
 
 ## Setup
 
-### Create enviroment
+### Create environment
 
 python -m venv .venv
 
-### Activate enviroment
+### Activate environment
 
 .\.venv\Scripts\activate
 
