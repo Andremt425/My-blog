@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException
-from models.Post import Post
+from models.post import Post
 
 BlogPosts = []
 
